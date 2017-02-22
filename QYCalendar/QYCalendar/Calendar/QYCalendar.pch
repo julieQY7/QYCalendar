@@ -1,0 +1,20 @@
+//
+//  QYCalendar.pch
+//  QYCalendar
+//
+//  Created by ZLJuan on 2017/2/8.
+//  Copyright © 2017年 ZLJuan. All rights reserved.
+//
+
+#ifndef QYCalendar_pch
+#define QYCalendar_pch
+
+#import "NSDate+Extend.h"
+#import "NSDate-Helper.h"
+
+#define RGB(R, G, B) [UIColor colorWithRed:R / 255.0 green:G / 255.0 blue:B / 255.0 alpha:1]
+#define D_Screen_Width  [UIScreen mainScreen].bounds.size.width
+#define D_Screen_Height [UIScreen mainScreen].bounds.size.height
+#define LOCALIZE(key) NSLocalizedStringFromTable(key, @"QYCalendar", nil)
+
+#endif /* QYCalendar_pch */
